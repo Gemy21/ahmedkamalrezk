@@ -1,122 +1,40 @@
 <div align="center">
 
-<img src="assets/profile-art.svg" width="100%" alt="Ahmed Kamal — developer profile banner" />
+<!-- animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<br/>
+<h3><code>ahmed@github ~ $ ./contributions.sh</code></h3>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-two-pied-42.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedkamalr)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedkamalrezk)
+<img src="./contrib-heatmap.svg" width="860" alt="Ahmed Kamal's GitHub contribution graph — auto-refreshed daily" />
 
-</div>
+<br>
+<br>
 
----
+<!-- ascii portrait (left) + streak/numbers card (right). both svgs are
+     840x880 so equal widths give equal heights.
+     portrait: python scripts/prep_photo.py && python scripts/make_ascii_svg.py
+     stats:    python scripts/render_stats_svg.py (same daily workflow) -->
 
-### `ahmed@github ~ $ whoami`
-
-<img align="right" width="150" src="assets/ahmed-ascii.svg" alt="Ahmed Kamal ASCII portrait" />
-
-```text
-Ahmed Kamal
-Computer Engineering Student | Artificial Intelligence Major
-
-I enjoy building practical software, exploring AI,
-and turning ideas into useful products.
-
-Currently focused on:
-  > Software development
-  > Artificial intelligence
-  > Building and improving real-world projects
-```
-
-<br clear="right"/>
-
----
-
-### `ahmed@github ~ $ ./contributions.sh`
-
-<div align="center">
-
-<img src="assets/contributions.svg" width="100%" alt="GitHub contribution activity" />
-
-</div>
-
----
-
-### `ahmed@github ~ $ ./projects.sh`
+<h3><code>ahmed@github ~ $ whoami</code></h3>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### ◈ Lektra
-
-An offline-first student planner designed to keep a semester organized.
-
-- Timetable and calendar
-- Subject folders and study materials
-- Voice entry in Arabic and English
-- Installable Progressive Web App
-
-[View repository →](https://github.com/ahmedkamalrezk/Lektra)
-
-</td>
-<td width="50%" valign="top">
-
-#### ◈ PC-Assistant
-
-A Python voice assistant that helps control a PC using voice commands.
-
-- Speech recognition
-- Online and offline voice input
-- Open apps and websites
-- Voice responses
-
-[View repository →](https://github.com/ahmedkamalrezk/PC-Assistant)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-#### ◈ The-Cave
-
-A JavaScript project. Explore the source code and implementation.
-
-[View repository →](https://github.com/ahmedkamalrezk/The-Cave)
-
-</td>
+<td valign="top"><img src="./ahmed-ascii.svg" width="420" alt="Ahmed Kamal — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Ahmed Kamal's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
 
----
+<br>
+<br>
 
-### `ahmed@github ~ $ ./stats.sh`
+<h3><code>ahmed@github ~ $ ./links.sh</code></h3>
 
-<div align="center">
+<p><b>Computer Engineering Student · AI Major</b></p>
 
-<img height="165" src="assets/stats.svg" alt="GitHub profile statistics" />
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-two-pied-42.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmedkamalr-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmedkamalr)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmedkamalrezk-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmedkamalrezk)
 
-</div>
-
----
-
-### `ahmed@github ~ $ tech_stack`
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode&theme=dark" alt="Technology icons" />
-
-</div>
-
----
-
-<div align="center">
-
-```text
-"Building, learning, and turning ideas into reality."
-```
-
-<sub>Generated with Python · Updated automatically by GitHub Actions</sub>
+<br>
 
 </div>
