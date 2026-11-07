@@ -13,6 +13,11 @@ name: Update profile art
 permissions:
   contents: write
 
+# serialise runs: two overlapping runs would race to push and one would fail
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
 jobs:
   heatmap:
     runs-on: ubuntu-latest
