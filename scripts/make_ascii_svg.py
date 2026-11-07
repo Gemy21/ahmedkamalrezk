@@ -36,8 +36,9 @@ RAMP = " .`:-=+*cs#%@"  # bright(sparse) -> dark(dense); leading space clears bg
 
 CONTRAST = 1.05
 BRIGHTNESS = 1.0
-GAMMA = 2.2           # >1 puts midtones (skin) into denser characters
-WHITE_FLOOR = 0.85    # near-white (cut-out background) is forced to blank
+GAMMA = 1.25          # >1 puts midtones (skin) into denser characters
+GAIN = 0.85           # pull lit skin into the middle of the ramp
+WHITE_FLOOR = 0.97    # near-white (cut-out background) is forced to blank
 
 PAD = 20
 TITLEBAR_H = 30
@@ -80,10 +81,10 @@ for y in range(ROWS):
     chars = []
     for x in range(COLS):
         lum = px[x, y] / 255.0
-        lum = pow(lum, GAMMA)
         if lum >= WHITE_FLOOR:
             chars.append(" ")
             continue
+        lum = pow(lum, GAMMA) * GAIN
         idx = int((1.0 - lum) * (len(RAMP) - 1) + 0.5)
         idx = max(0, min(len(RAMP) - 1, idx))
         chars.append(RAMP[idx])

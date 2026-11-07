@@ -33,7 +33,7 @@ OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-pre
 
 # square crop expressed in fractions of the source width:
 #   (left, top, side) -- tweak these if you swap the photo
-CROP = (0.24, 0.05, 0.44)
+CROP = (0.10, 0.03, 0.84)
 CONTRAST = 1.12
 BRIGHTNESS = 1.04
 
